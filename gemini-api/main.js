@@ -2,7 +2,7 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 const fs = require("fs"); // Import the 'fs' (filesystem) module
 
 // Access your API key as an environment variable (see "Set up your API key" above)
-const genAI = new GoogleGenerativeAI('AIzaSyB53g_g98UKG6PtqAosL9F03Mcuzi34Zp4');
+const genAI = new GoogleGenerativeAI('Add your own api key here');
 
 async function run() {
   // The Gemini 1.5 models are versatile and work with both text-only and multimodal prompts
